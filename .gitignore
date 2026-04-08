@@ -1,0 +1,19 @@
+# Environment
+venv/
+.env
+
+# ChromaDB (auto-regenerated, too large for git)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDFs (too large, user provides their own)
+docs/*.pdf
